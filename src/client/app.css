@@ -6,3 +6,61 @@ body {
   text-align: center;
   margin: auto;
 }
+
+/* whole calender  */
+.rbc-calendar {
+  height: 100vh !important;
+  background-color: #212121;
+  color: #ffffff;
+}
+
+/* borders */
+.rbc-day-bg + .rbc-day-bg,
+.rbc-header + .rbc-header {
+  border-left: 1px solid #000000 !important;
+}
+
+.rbc-month-row + .rbc-month-row {
+  border-top: 1px solid #000000 !important;
+}
+
+.rbc-header {
+  border-bottom: 1px solid #000000 !important;
+}
+
+.rbc-month-view {
+  border: 1px solid #000000 !important;
+}
+
+.rbc-toolbar button {
+  border: 1px solid #000000 !important;
+  color: white !important;
+}
+
+/* day backgrounds  */
+.rbc-off-range-bg {
+  background: #696969 !important;
+}
+
+.rbc-toolbar button:active,
+.rbc-toolbar button.rbc-active {
+  background-color: #424242 !important;
+}
+
+.rbc-toolbar button:hover {
+  background-color: #424242 !important;
+}
+
+.rbc-today {
+  background-color: #303030 !important;
+}
+
+.rbc-now {
+  color: yellow
+}
+
+.rbc-event {
+  background-color: #3E50B4;
+}
+
+
